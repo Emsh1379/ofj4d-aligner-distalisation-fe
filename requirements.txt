@@ -1,0 +1,8 @@
+numpy>=1.24
+scipy>=1.12              # cg(rtol=...) throughout; 1.11 fails with TypeError
+pyamg>=5.0               # fallback linear solver; needs scipy>=1.12 itself
+scikit-image>=0.21      # only needed to regenerate the aligner
+psutil                  # optional, for machine reporting in benchmark.py
+#
+# Strongly recommended: pypardiso (see requirements-optional.txt).  It is optional
+# only in the sense that the model falls back to AMG+CG without it -- 14x slower.

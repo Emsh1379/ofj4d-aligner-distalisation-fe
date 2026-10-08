@@ -1,0 +1,13 @@
+# FEBioPDL plug-in: bilinear PDL material ("pdl bilinear"). See FEBioPDL.cpp.
+cmake_minimum_required(VERSION 3.18)
+project(FEBioPDL LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+set(FEBIO_ROOT "" CACHE PATH "FEBio source root (contains FECore/)")
+set(FEBIO_LIB_DIR "" CACHE PATH "FEBio build library directory")
+add_library(FEBioPDL SHARED FEBioPDL.cpp)
+target_compile_definitions(FEBioPDL PRIVATE LINUX)
+target_include_directories(FEBioPDL PRIVATE ${FEBIO_ROOT})
+target_link_directories(FEBioPDL PRIVATE ${FEBIO_LIB_DIR})
+target_link_libraries(FEBioPDL PRIVATE febiomech fecore)

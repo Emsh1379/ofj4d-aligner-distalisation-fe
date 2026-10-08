@@ -1,0 +1,21 @@
+# Candidate accelerators. benchmark.py detects and trials whichever are present.
+#
+# MEASURED WINNER -- a sparse direct solver on a 150k dof SPD system.
+# 0.86 s vs 28.8 s per linear solve on a 4-core Xeon; ofj4d/solve4d.py uses it
+# automatically when it imports.  Install this one.
+pypardiso            # Intel MKL PARDISO. pip install pypardiso
+scikit-sparse        # SuiteSparse CHOLMOD. needs libsuitesparse; conda is easier:
+                     #   conda install -c conda-forge scikit-sparse
+#
+# GPU. Only pyamgx moves the AMG *setup* (75% of the cost) onto the device.
+# Needs Pascal or newer: pre-Pascal consumer cards run FP64 at 1/32 rate.
+torch                # USED: ofj4d/gpu4d.py assembles the system on the GPU with it.
+                     # Any CUDA device helps -- the assembly is bandwidth-bound, so
+                     # even a T4's weak FP64 arithmetic is irrelevant.  3x on the
+                     # whole loop.  OFJ_GPU=off to disable.
+cupy-cuda12x         # accelerates CG only -- and with a direct solve there is no CG
+                     # left to accelerate.  Skip unless the direct route is unavailable.
+# pyamgx             # build NVIDIA AMGX from source first
+#
+numba                # JIT for assembly loops
+petsc4py             # wide solver selection, MPI

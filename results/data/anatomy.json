@@ -1,0 +1,617 @@
+{
+ "P3": {
+  "width_mb16_26": 56.33127945845582,
+  "half_arch_length": 55.21626030572862,
+  "root_area": {
+   "17": 207.91866122278807,
+   "16": 288.2913393089224,
+   "15": 143.48266977469166,
+   "14": 142.09492403981193,
+   "13": 177.6471376443716,
+   "12": 144.79760492476655,
+   "11": 143.60234121901868
+  },
+  "sites": {
+   "baseline": {
+    "buccal": {
+     "label": "16/17, 4 mm (paper)",
+     "gap": 3.2899398938789517,
+     "beyond_root": 0.7879211781329492,
+     "nearest_pdl": 3.079169461508877,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    },
+    "palatal": {
+     "label": "16/17, 4 mm (paper)",
+     "gap": 3.4704314768415507,
+     "beyond_root": 2.5972701214104292,
+     "nearest_pdl": 4.1016425429935985,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    }
+   },
+   "h1617_a2": {
+    "buccal": {
+     "label": "16/17, 2 mm",
+     "gap": 2.9416166452199093,
+     "beyond_root": 0.8218330617215344,
+     "nearest_pdl": 2.9986557488444037,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    },
+    "palatal": {
+     "label": "16/17, 2 mm",
+     "gap": 2.7391806877100464,
+     "beyond_root": 1.660345698729369,
+     "nearest_pdl": 3.384649269361524,
+     "max_diameter": 1.5,
+     "verdict": "placeable, d <= 1.5 mm"
+    }
+   },
+   "h1617_a6": {
+    "buccal": {
+     "label": "16/17, 6 mm",
+     "gap": 3.750053970449887,
+     "beyond_root": 0.834731949038277,
+     "nearest_pdl": 2.6793368456148956,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    },
+    "palatal": {
+     "label": "16/17, 6 mm",
+     "gap": 3.7752905332412645,
+     "beyond_root": 2.469070911541607,
+     "nearest_pdl": 3.9538505306566987,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    }
+   },
+   "h1617_a8": {
+    "buccal": {
+     "label": "16/17, 8 mm",
+     "gap": 4.577238412386999,
+     "beyond_root": 1.788638444201406,
+     "nearest_pdl": 3.1649612195886383,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    },
+    "palatal": {
+     "label": "16/17, 8 mm",
+     "gap": 4.8362479657244215,
+     "beyond_root": 3.1363810007748585,
+     "nearest_pdl": 4.420966594538487,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    }
+   },
+   "md1516_a4": {
+    "buccal": {
+     "label": "15/16, 4 mm",
+     "gap": 3.0466209506007527,
+     "beyond_root": 0.6001413343034256,
+     "nearest_pdl": 2.20571353762874,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    },
+    "palatal": {
+     "label": "15/16, 4 mm",
+     "gap": 3.231915849907436,
+     "beyond_root": 0.3705525416666253,
+     "nearest_pdl": 5.345925691859464,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    }
+   },
+   "md1415_a4": {
+    "buccal": {
+     "label": "14/15, 4 mm",
+     "gap": 3.786097944136718,
+     "beyond_root": 1.4962914913947718,
+     "nearest_pdl": 3.129421518829579,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    },
+    "palatal": {
+     "label": "14/15, 4 mm",
+     "gap": 4.2252959605245035,
+     "beyond_root": 1.8893811856169709,
+     "nearest_pdl": 3.5243865617809695,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    }
+   }
+  }
+ },
+ "P4": {
+  "width_mb16_26": 47.92113984738356,
+  "half_arch_length": 50.081190162826644,
+  "root_area": {
+   "17": 229.12932267846907,
+   "16": 278.9446890119582,
+   "15": 130.96008770347294,
+   "14": 135.5640136469228,
+   "13": 178.8342635796302,
+   "12": 154.08702714216506,
+   "11": 155.12488595539352
+  },
+  "sites": {
+   "baseline": {
+    "buccal": {
+     "label": "16/17, 4 mm (paper)",
+     "gap": 0.835071041150532,
+     "beyond_root": 0.37514048019870927,
+     "nearest_pdl": 1.6593466491193631,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "16/17, 4 mm (paper)",
+     "gap": 2.0011099110847628,
+     "beyond_root": -0.11868505518357075,
+     "nearest_pdl": 1.7300257732576934,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    }
+   },
+   "h1617_a2": {
+    "buccal": {
+     "label": "16/17, 2 mm",
+     "gap": 0.8948805232437085,
+     "beyond_root": -0.4762341769745806,
+     "nearest_pdl": 1.375268800611901,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    },
+    "palatal": {
+     "label": "16/17, 2 mm",
+     "gap": 1.8303906328959934,
+     "beyond_root": 0.20923177295695083,
+     "nearest_pdl": 2.001427980273592,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    }
+   },
+   "h1617_a6": {
+    "buccal": {
+     "label": "16/17, 6 mm",
+     "gap": 1.1384580788662881,
+     "beyond_root": 0.08394561636587916,
+     "nearest_pdl": 1.4627882914062305,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "16/17, 6 mm",
+     "gap": 1.8471792187328235,
+     "beyond_root": -0.24556972037426217,
+     "nearest_pdl": 1.5111369867464668,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    }
+   },
+   "h1617_a8": {
+    "buccal": {
+     "label": "16/17, 8 mm",
+     "gap": 2.08964056587627,
+     "beyond_root": 0.08640383553235154,
+     "nearest_pdl": 1.3968638406187885,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "16/17, 8 mm",
+     "gap": 2.2981402812997764,
+     "beyond_root": -0.6028647419682169,
+     "nearest_pdl": 1.619573184365653,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    }
+   },
+   "md1516_a4": {
+    "buccal": {
+     "label": "15/16, 4 mm",
+     "gap": 2.716757063852111,
+     "beyond_root": 0.5458654881766387,
+     "nearest_pdl": 2.1630245923851374,
+     "max_diameter": 1.5,
+     "verdict": "placeable, d <= 1.5 mm"
+    },
+    "palatal": {
+     "label": "15/16, 4 mm",
+     "gap": 2.9901162176369516,
+     "beyond_root": -1.0925071722354218,
+     "nearest_pdl": 3.1379607667896323,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    }
+   },
+   "md1415_a4": {
+    "buccal": {
+     "label": "14/15, 4 mm",
+     "gap": 3.0254194596771375,
+     "beyond_root": 0.876755935973176,
+     "nearest_pdl": 2.6371617884217238,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    },
+    "palatal": {
+     "label": "14/15, 4 mm",
+     "gap": 3.4082321946418404,
+     "beyond_root": 0.8208224128964172,
+     "nearest_pdl": 2.6374285525750083,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    }
+   }
+  }
+ },
+ "P5": {
+  "width_mb16_26": 49.882854546469325,
+  "half_arch_length": 51.41796467611775,
+  "root_area": {
+   "17": 335.6900880720005,
+   "16": 370.25179065189195,
+   "15": 180.2822121094045,
+   "14": 151.7989230271239,
+   "13": 181.3080297544143,
+   "12": 101.65235789062532,
+   "11": 138.19008061475472
+  },
+  "sites": {
+   "baseline": {
+    "buccal": {
+     "label": "16/17, 4 mm (paper)",
+     "gap": 2.354404281424772,
+     "beyond_root": 1.663659406408411,
+     "nearest_pdl": 3.5324838739013185,
+     "max_diameter": 1.2,
+     "verdict": "placeable, d <= 1.2 mm"
+    },
+    "palatal": {
+     "label": "16/17, 4 mm (paper)",
+     "gap": 1.7476380125716116,
+     "beyond_root": 0.07599594646744201,
+     "nearest_pdl": 2.0974995141048662,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    }
+   },
+   "h1617_a2": {
+    "buccal": {
+     "label": "16/17, 2 mm",
+     "gap": 2.4196824107998562,
+     "beyond_root": 0.90421264930246,
+     "nearest_pdl": 3.4831232213864425,
+     "max_diameter": 1.2,
+     "verdict": "placeable, d <= 1.2 mm"
+    },
+    "palatal": {
+     "label": "16/17, 2 mm",
+     "gap": 1.87299515960229,
+     "beyond_root": -0.23444434516703883,
+     "nearest_pdl": 2.1540039989933737,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    }
+   },
+   "h1617_a6": {
+    "buccal": {
+     "label": "16/17, 6 mm",
+     "gap": 2.0779412330388762,
+     "beyond_root": 1.1968018731627046,
+     "nearest_pdl": 2.8096062065451797,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "16/17, 6 mm",
+     "gap": 1.880437353723984,
+     "beyond_root": 0.6745093555243544,
+     "nearest_pdl": 2.23617474567778,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    }
+   },
+   "h1617_a8": {
+    "buccal": {
+     "label": "16/17, 8 mm",
+     "gap": 2.0440864235967044,
+     "beyond_root": 0.9498497471503686,
+     "nearest_pdl": 2.3790314372270096,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "16/17, 8 mm",
+     "gap": 2.150664907307535,
+     "beyond_root": 1.141643794337372,
+     "nearest_pdl": 2.570888827338888,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    }
+   },
+   "md1516_a4": {
+    "buccal": {
+     "label": "15/16, 4 mm",
+     "gap": 1.228291465345794,
+     "beyond_root": 2.0702964364256387,
+     "nearest_pdl": 2.7450563431028514,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "15/16, 4 mm",
+     "gap": 1.967623166277784,
+     "beyond_root": -1.301631837306453,
+     "nearest_pdl": 2.9152694912672086,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    }
+   },
+   "md1415_a4": {
+    "buccal": {
+     "label": "14/15, 4 mm",
+     "gap": 3.45112046946298,
+     "beyond_root": 1.960130793629948,
+     "nearest_pdl": 3.4911624634359546,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    },
+    "palatal": {
+     "label": "14/15, 4 mm",
+     "gap": 3.735283817445116,
+     "beyond_root": 0.8724592955805162,
+     "nearest_pdl": 2.6417318291962792,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    }
+   }
+  }
+ },
+ "P6": {
+  "width_mb16_26": 53.55492892763412,
+  "half_arch_length": 51.320273649877265,
+  "root_area": {
+   "17": 222.85080129202302,
+   "16": 332.6087154915256,
+   "15": 155.47915556488653,
+   "14": 172.59022590417035,
+   "13": 196.165391063652,
+   "12": 128.7312784714804,
+   "11": 147.29113125428688
+  },
+  "sites": {
+   "baseline": {
+    "buccal": {
+     "label": "16/17, 4 mm (paper)",
+     "gap": 0.6202216717969833,
+     "beyond_root": 2.131723454395522,
+     "nearest_pdl": 3.3721112207270934,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "16/17, 4 mm (paper)",
+     "gap": 1.9340086976552158,
+     "beyond_root": 0.27716206779552266,
+     "nearest_pdl": 1.9273318322140822,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    }
+   },
+   "h1617_a2": {
+    "buccal": {
+     "label": "16/17, 2 mm",
+     "gap": 1.0970971084226875,
+     "beyond_root": 2.1419997574059417,
+     "nearest_pdl": 3.4561274898813648,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "16/17, 2 mm",
+     "gap": 1.873844312008515,
+     "beyond_root": 0.590968482147507,
+     "nearest_pdl": 2.182754471787594,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    }
+   },
+   "h1617_a6": {
+    "buccal": {
+     "label": "16/17, 6 mm",
+     "gap": 0.5423484708758082,
+     "beyond_root": 0.997929247473043,
+     "nearest_pdl": 2.236752672717776,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "16/17, 6 mm",
+     "gap": 2.8635419847314836,
+     "beyond_root": 0.39625059104650173,
+     "nearest_pdl": 1.902392052343402,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    }
+   },
+   "h1617_a8": {
+    "buccal": {
+     "label": "16/17, 8 mm",
+     "gap": 1.3024260928548301,
+     "beyond_root": 0.1646290479254553,
+     "nearest_pdl": 1.7470884437545908,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "16/17, 8 mm",
+     "gap": 3.374353405842328,
+     "beyond_root": -0.10280309814080102,
+     "nearest_pdl": 1.9402652844155095,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    }
+   },
+   "md1516_a4": {
+    "buccal": {
+     "label": "15/16, 4 mm",
+     "gap": 1.4225397514477862,
+     "beyond_root": 0.9767354522096934,
+     "nearest_pdl": 2.185052863555632,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "15/16, 4 mm",
+     "gap": 2.396304644443063,
+     "beyond_root": -0.6063831005969202,
+     "nearest_pdl": 3.204643286407852,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    }
+   },
+   "md1415_a4": {
+    "buccal": {
+     "label": "14/15, 4 mm",
+     "gap": 3.4270077012808215,
+     "beyond_root": 1.806048420682428,
+     "nearest_pdl": 3.269298703482904,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    },
+    "palatal": {
+     "label": "14/15, 4 mm",
+     "gap": 3.405174003534583,
+     "beyond_root": 1.2587683565912258,
+     "nearest_pdl": 2.829617738478362,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    }
+   }
+  }
+ },
+ "P8": {
+  "width_mb16_26": 48.268375584824966,
+  "half_arch_length": 47.81236264005761,
+  "root_area": {
+   "17": 249.512624235398,
+   "16": 312.5976651130675,
+   "15": 100.1477630206533,
+   "14": 114.58235468530438,
+   "13": 165.66621365685648,
+   "12": 92.61702259528374,
+   "11": 91.91026994257479
+  },
+  "sites": {
+   "baseline": {
+    "buccal": {
+     "label": "16/17, 4 mm (paper)",
+     "gap": 1.8528275217521895,
+     "beyond_root": 0.1027786274898288,
+     "nearest_pdl": 1.5566999685876903,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "16/17, 4 mm (paper)",
+     "gap": 2.480642898174075,
+     "beyond_root": 0.5435394719965867,
+     "nearest_pdl": 2.602953782545984,
+     "max_diameter": 1.2,
+     "verdict": "placeable, d <= 1.2 mm"
+    }
+   },
+   "h1617_a2": {
+    "buccal": {
+     "label": "16/17, 2 mm",
+     "gap": 1.951261885132027,
+     "beyond_root": -1.2345227043626243,
+     "nearest_pdl": 1.160234273752949,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    },
+    "palatal": {
+     "label": "16/17, 2 mm",
+     "gap": 2.6343496289340607,
+     "beyond_root": -0.5889146530540819,
+     "nearest_pdl": 1.8664678109083808,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    }
+   },
+   "h1617_a6": {
+    "buccal": {
+     "label": "16/17, 6 mm",
+     "gap": 2.290614903679696,
+     "beyond_root": 0.5488904581464986,
+     "nearest_pdl": 1.9051316605589668,
+     "max_diameter": 1.2,
+     "verdict": "placeable, d <= 1.2 mm"
+    },
+    "palatal": {
+     "label": "16/17, 6 mm",
+     "gap": 2.588853041986141,
+     "beyond_root": 1.0104451035616462,
+     "nearest_pdl": 3.004915749337212,
+     "max_diameter": 1.5,
+     "verdict": "placeable, d <= 1.5 mm"
+    }
+   },
+   "h1617_a8": {
+    "buccal": {
+     "label": "16/17, 8 mm",
+     "gap": 2.8902401043551222,
+     "beyond_root": 1.3233647427124922,
+     "nearest_pdl": 2.7229694596728127,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    },
+    "palatal": {
+     "label": "16/17, 8 mm",
+     "gap": 3.6412459418770524,
+     "beyond_root": 0.958951115414707,
+     "nearest_pdl": 3.078257985502639,
+     "max_diameter": 1.8,
+     "verdict": "placeable, d <= 1.8 mm"
+    }
+   },
+   "md1516_a4": {
+    "buccal": {
+     "label": "15/16, 4 mm",
+     "gap": 1.3309407157859106,
+     "beyond_root": -0.20937475775988634,
+     "nearest_pdl": 1.0659838192415587,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    },
+    "palatal": {
+     "label": "15/16, 4 mm",
+     "gap": 1.4505549441155878,
+     "beyond_root": -1.652620508356069,
+     "nearest_pdl": 2.3229722309543974,
+     "max_diameter": null,
+     "verdict": "inside root envelope"
+    }
+   },
+   "md1415_a4": {
+    "buccal": {
+     "label": "14/15, 4 mm",
+     "gap": 2.139896190616339,
+     "beyond_root": 0.7839821871160484,
+     "nearest_pdl": 2.2658675527968706,
+     "max_diameter": null,
+     "verdict": "gap too narrow"
+    },
+    "palatal": {
+     "label": "14/15, 4 mm",
+     "gap": 2.212807988098275,
+     "beyond_root": 1.1244612283968234,
+     "nearest_pdl": 2.5798753842843647,
+     "max_diameter": 1.2,
+     "verdict": "placeable, d <= 1.2 mm"
+    }
+   }
+  }
+ }
+}

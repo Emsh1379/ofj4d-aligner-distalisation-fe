@@ -1,0 +1,13 @@
+# FEBioAlignerPairs plug-in: constraint "aligner-pairs". See FEAlignerPairs.cpp.
+cmake_minimum_required(VERSION 3.18)
+project(FEBioAlignerPairs LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+set(FEBIO_ROOT "" CACHE PATH "FEBio source root (contains FECore/)")
+set(FEBIO_LIB_DIR "" CACHE PATH "FEBio build library directory")
+add_library(FEBioAlignerPairs SHARED FEAlignerPairs.cpp)
+target_compile_definitions(FEBioAlignerPairs PRIVATE LINUX)
+target_include_directories(FEBioAlignerPairs PRIVATE ${FEBIO_ROOT})
+target_link_directories(FEBioAlignerPairs PRIVATE ${FEBIO_LIB_DIR})
+target_link_libraries(FEBioAlignerPairs PRIVATE fecore)
