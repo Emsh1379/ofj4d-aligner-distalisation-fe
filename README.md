@@ -15,3 +15,6 @@ Production-run environment (`build4d/v2/queue.sh`): `OFJ_K_N=1000`, `OFJ_PRESCRI
 `OFJ_TIP_BLEND=0.40`, `OFJ_BONE=rigid`.
 
 Not included: patient-derived meshes, geometry pickles (*.pkl), stress fields (*.npz), run logs.
+
+## Licence
+MIT (see `LICENSE`).
